@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF23F37319D3C20300A0349F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF23F37219D3C20300A0349F /* main.m */; };
+		EF23F37B19D3C26700A0349F /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EF23F37A19D3C26700A0349F /* XYZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EF23F36F19D3C20300A0349F /* j_learn_objective_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = j_learn_objective_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF23F37219D3C20300A0349F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF23F37919D3C24100A0349F /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		EF23F37A19D3C26700A0349F /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		EF23F36619D3C20300A0349F = {
 			isa = PBXGroup;
 			children = (
+				EF23F37919D3C24100A0349F /* XYZPerson.h */,
+				EF23F37A19D3C26700A0349F /* XYZPerson.m */,
 				EF23F37119D3C20300A0349F /* j_learn_objective_c */,
 				EF23F37019D3C20300A0349F /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF23F37B19D3C26700A0349F /* XYZPerson.m in Sources */,
 				EF23F37319D3C20300A0349F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
