@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BDECB9D19D81577002FBC0B /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDECB9C19D81577002FBC0B /* XYZShoutingPerson.m */; };
 		EF23F37319D3C20300A0349F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF23F37219D3C20300A0349F /* main.m */; };
 		EF23F37B19D3C26700A0349F /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EF23F37A19D3C26700A0349F /* XYZPerson.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7BDECB9B19D8152C002FBC0B /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYZShoutingPerson.h; path = j_learn_objective_c/XYZShoutingPerson.h; sourceTree = "<group>"; };
+		7BDECB9C19D81577002FBC0B /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 		EF23F36F19D3C20300A0349F /* j_learn_objective_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = j_learn_objective_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF23F37219D3C20300A0349F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF23F37919D3C24100A0349F /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
@@ -46,6 +49,8 @@
 			children = (
 				EF23F37919D3C24100A0349F /* XYZPerson.h */,
 				EF23F37A19D3C26700A0349F /* XYZPerson.m */,
+				7BDECB9B19D8152C002FBC0B /* XYZShoutingPerson.h */,
+				7BDECB9C19D81577002FBC0B /* XYZShoutingPerson.m */,
 				EF23F37119D3C20300A0349F /* j_learn_objective_c */,
 				EF23F37019D3C20300A0349F /* Products */,
 			);
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF23F37B19D3C26700A0349F /* XYZPerson.m in Sources */,
+				7BDECB9D19D81577002FBC0B /* XYZShoutingPerson.m in Sources */,
 				EF23F37319D3C20300A0349F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +244,7 @@
 				EF23F37819D3C20300A0349F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

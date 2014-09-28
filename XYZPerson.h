@@ -14,12 +14,19 @@
 #endif
 @interface XYZPerson : NSObject
 
-@property NSString *firstName;
+@property (copy) NSString *firstName;
 @property NSString *lastName;
 @property NSDate *birthDate;
+@property (weak) XYZPerson *partner;
 
 - (void) sayHello;
+- (void) sayGoodDay;
 
-+ (XYZPerson*) person;
+- (void) saySomething:(NSString *)greeting;
+
++ (id) person;
++ (id) personWithFirstName:(NSString *)firstName LastName:(NSString *)lastName DoB:(NSDate *)dob;
+- (id) initWithFirstName:(NSString *)firstName LastName:(NSString *)lastName DoB:(NSDate *)dob;
+
 
 @end

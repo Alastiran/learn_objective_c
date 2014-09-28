@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>83BF3955-7003-4F48-BD32-3E3D0C735612</string>
+	<key>IDESourceControlProjectName</key>
+	<string>j_learn_objective_c</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74E12197E4D0C0D6331B283F29197E84E25CC7AE</key>
+		<string>https://github.com/Alastiran/learn_objective_c.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>j_learn_objective_c.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74E12197E4D0C0D6331B283F29197E84E25CC7AE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Alastiran/learn_objective_c.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74E12197E4D0C0D6331B283F29197E84E25CC7AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74E12197E4D0C0D6331B283F29197E84E25CC7AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>learn_objective_c</string>
+		</dict>
+	</array>
+</dict>
+</plist>
